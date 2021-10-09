@@ -1,5 +1,6 @@
 import os
 import logging
+
 from functools import lru_cache
 from pydantic import BaseSettings
 
