@@ -1,8 +1,8 @@
-# FASTAPI REACT JS EXAMPLE PROJECT
+# FASTAPI X REACT JS EXAMPLE PROJECT
 
 ## About
 
-A simple api
+A simple fast api api backend with a react frontend.
 
 ## Running the project
 
@@ -15,4 +15,5 @@ The backend api should be available at  http://localhost:8004
 
 ## Testing
 
-WIP
+### Backend API
+Run `docker-compose exec web python -m pytest`
