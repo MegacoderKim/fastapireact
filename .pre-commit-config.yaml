@@ -1,8 +1,6 @@
 repos:
-- repo: local
-  hooks:
-  - id: black
-    name: black
-    language: system
-    entry: black --check
-    types: [python]
+-   repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    - id: black
+      language_version: python3.9
