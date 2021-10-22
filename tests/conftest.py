@@ -34,7 +34,8 @@ def test_app_with_db() -> Generator:
 
 @pytest.fixture(scope="module")
 def test_app() -> Generator:
-    main.app.dependency_overrides[get_settings] = get_settings_override
+    app = main.create_application()
+    app.dependency_overrides[get_settings] = get_settings_override
     with TestClient(main.app) as test_client:
         yield test_client
     # finalizer()

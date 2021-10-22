@@ -1,5 +1,8 @@
 # FASTAPI X REACT JS EXAMPLE PROJECT
 
+
+![Continuous Integration and Delivery](https://github.com/megacoderkim/fastapireact/workflows/Continuous%20Integration%20and%20Delivery/badge.svg?branch=master)
+
 ## About
 
 A simple fast api api backend with a react frontend.
